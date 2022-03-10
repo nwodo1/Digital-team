@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
     line-break: 26px;
     line-height: 26px;
+    background-image: url('background.jpg');
 }
 }
 }
@@ -43,10 +44,12 @@ padding-right: 10cm;: 10cm;
 }
 
 .dn {
-background-color: ;
-border: 2px solid yellow;
+background-color:#FFC67D ;
+border-radius:10px ;
 border: 2px dotted red;
-
+text-align: center;
+float: center;
+shape-image-threshold: $;
 }
 img{
 display: block;
@@ -59,6 +62,7 @@ border-radius: 50px;
 .madoo {
 background-color: violet;
 margin: 15px;
+text-align-last: center;
 border: 22px groove Goldenrod;
 display: inline-block;
 
@@ -76,15 +80,16 @@ display: inline-block;
       display: block;
   }
   }
-  }}
+  }
   
-   .primary-btn{
+   .mad {
        padding:13px 43px 13px 43px ;
        border-radius: 20px;
        color: white;
-       background-color: green;
+       border: 15px groove #665B2F;
+       background-color: #FFDE8E;
        text-decoration: none;
-       
+   }
    }
    
   }
@@ -107,17 +112,26 @@ display: inline-block;
   .experiences-item  {
       
       padding: 10px;
-      border-left: 10px dotted #8C6B24;
+      border-left: 22px dotted #8C6B24;
       
   }
-  
-    .nav{
-      padding: 10px;
-      padding-left:57px;
-      color: #5D76BC;
-      
+   
   }
   
   h6{
       text-align-last: center;
+  }
+  
+  .nav{
+      background-color: red;
+      display: inline-block;
+      display: inline;
+      margin-left: auto;
+      margin-right: auto; 
+      
+       float: centr;
+  }
+  
+  footer{
+      background-image: url('wallpaper.jpg');
   }
